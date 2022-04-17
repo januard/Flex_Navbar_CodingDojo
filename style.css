@@ -1,0 +1,49 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:  #888888;
+}
+
+ul li{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+
+}
+
+.nav-title{
+    color: #FFFFFF;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+.active{
+    color: #FFFFFF;
+}
+
+.btn{
+    height: 28px;
+    background-color: #17A2B8;
+    color: #FFFFFF;
+    border: 3px solid black;
+    box-shadow: 2px 4px 1px black;
+}
